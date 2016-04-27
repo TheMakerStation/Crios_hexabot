@@ -42,7 +42,7 @@ void translateIR()
 
   {
 
-case 0xFF629D:  
+case 0xFF629D:  // Case numbers come from the IR remote, will be specific to the manufacturer of the remote
 
     Serial.println(" WALK           "); 
    walk();
